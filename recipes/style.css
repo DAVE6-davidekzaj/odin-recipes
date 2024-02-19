@@ -1,0 +1,220 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.main-page {
+    background: url(images/20-18-Impik-restaurace0466.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*Sector-1*/
+
+
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.header-items img {
+    max-width: 180px;
+}
+
+.header-hamburger a {
+    text-decoration: none;
+    color: #E1C16E;
+    font-size: 60px;
+}
+
+.header-button {
+    transition: 0.5s;
+}
+
+.header-button a {
+    font-family: Georgia;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #E1C16E;
+    background-color: #E1C16E;
+    color: white;
+}
+
+.header-button:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+
+/*Sector-2*/
+
+
+.sector-2 {
+    margin-top: 20px;
+    border-bottom: 3px solid #E1C16E;
+    margin-bottom: 10px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gallery-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+} 
+
+.gallery-items a {
+    margin-bottom: 5%;
+}
+
+.gallery-items img {
+    transition: 0.8s;
+} 
+
+.gallery-items img:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.8s;
+    border: 2px solid #E1C16E;
+}
+
+.sector-2 article {
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.sector-2 h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+
+.sector-2 img {
+    max-width: 100%;
+    border: 2px solid transparent;
+    border-radius: 23px;
+}
+
+
+/*Baguette*/
+
+.gallery-buttons-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery-buttons-container a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.gallery-buttons-container a:hover {
+    border-bottom: 2px solid #E1C16E;
+    transition: 0.5s;
+}
+
+
+/*Ingredients*/
+
+
+.ingredients-sector {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-bottom: 3px solid #E1C16E;
+} 
+
+.ingredients-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 58%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.ingredients-container ul {
+    margin-top: 20px;
+}
+
+.ingredients-container li {
+    line-height: 50px;
+    font-size: 20px;
+}
+
+
+/*Steps*/
+
+
+.steps-sector {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-bottom: 3px solid #E1C16E;
+}
+
+.steps-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 58%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.steps-container ol {
+    margin-top: 20px;
+}
+
+.steps-container li {
+    line-height: 30px;
+    font-size: 18px;
+}
